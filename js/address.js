@@ -1,0 +1,1 @@
+webpackJsonp([20],{1157:function(e,t,n){n(8),e.exports=n(435)},435:function(e,t,n){"use strict";function p(e){return e&&e.__esModule?e:{default:e}}var u=n(25),a=p(u),o=n(98),c=p(o);new a.default({el:"#hemayin-app",template:"<App/>",components:{App:c.default}})}},[1157]);

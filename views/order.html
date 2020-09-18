@@ -1,0 +1,83 @@
+<!doctype html>
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no">
+    <meta name="description" content="河马印轻松快速将画作转换成文创品。提供便捷、高性价比、高品质的文创品定制服务。简单快捷的设计工具；简易直观的管理系统；支持全面印花；一件起定制，支持分享到各个社交平台。">
+    <meta name="Keywords" content="河马印,定制,艺术,个性,印花,文创品,礼品,衍生品,周边品,创意,网上购物,网上商城">
+    <meta name="format-detection" content="telephone=no">
+    <meta name="format-detection" content="email=no">
+    <title>我的订单</title>
+    <script>
+        (function (win) {
+            // 不能用ES6
+            var docEl = win.document.documentElement
+            var tid
+
+            function refreshRem() {
+                var width = docEl.getBoundingClientRect().width
+                if (width > 468) {
+                    width = 468
+                }
+                var rem = width / 3.75
+                docEl.style.fontSize = rem + 'px'
+            }
+
+            function dbcRefresh() {
+                clearTimeout(tid)
+                tid = setTimeout(refreshRem, 100)
+            }
+
+            win.addEventListener('resize', function () {
+                dbcRefresh()
+            }, false)
+            win.addEventListener('pageshow', function (e) {
+                dbcRefresh()
+            }, false)
+            refreshRem()
+        })(window)
+    </script>
+</head>
+<body>
+<div id="hemayin-app"></div>
+<script type="text/javascript" src="./js/common.js?9b2ea35404a25a8bb687"></script><script type="text/javascript" src="./js/order.js?9b2ea35404a25a8bb687"></script></body>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/fastclick/1.0.6/fastclick.js"></script>
+
+<script>
+    (function (win) {
+        if ('addEventListener' in document) {
+            document.addEventListener('DOMContentLoaded', function () {
+                win.FastClick.attach(document.body)
+            }, false)
+        }
+    })(window)
+</script>
+<script>
+    // (function (m, ei, q, i, a, j, s) {
+    //     if ('addEventListener' in document) {
+    //         m[i] = m[i] || function () {
+    //             (m[i].a = m[i].a || []).push(arguments)
+    //         }
+    //         j = ei.createElement(q)
+    //         s = ei.getElementsByTagName(q)[0]
+    //         j.async = true
+    //         j.charset = 'UTF-8'
+    //         j.src = 'https://static.meiqia.com/dist/meiqia.js?_=t'
+    //         s.parentNode.insertBefore(j, s)
+    //     }
+    //     _MEIQIA('entId', 69018)
+    //     _MEIQIA('withoutBtn')
+    // })(window, document, 'script', '_MEIQIA')
+</script>
+
+
+<script>
+    // window.dataLayer = window.dataLayer || []
+
+    // function gtag() {dataLayer.push(arguments)}
+
+    // gtag('js', new Date())
+
+    // gtag('config', 'UA-112503472-1')
+</script>
+</html>
